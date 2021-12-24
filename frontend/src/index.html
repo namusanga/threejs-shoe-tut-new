@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Shoe shopping Site</title>
+
+
+  <link rel="stylesheet" href="style.css" />
+  <!--==========  ==========-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <!--========== BOX ICONS ==========-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!--========== SWIPER CSS ==========-->
+  <link rel="stylesheet" href="./components/carasouelAssets/css/swiper-bundle.min.css" />
+
+  <!--=========bootstrap CSS ==========-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!--========== carousel CSS ==========-->
+  <link rel="stylesheet" href="./components/carasouelAssets/css/styles.css" />
+
+  <!--================ shoe Details Page============== -->
+  <link rel="stylesheet" href="./Jumia-3D-shoe/styles.css" />
+</head>
+
+<body>
+
+   <!-- HEADER -->
+   <header id="header" class="header">
+    <!-- NAV -->
+    <nav class="nav container">
+      <div class="logo">
+        <a href="">
+          <!-- <span>Nike</span> -->
+          <img src="./Jumia-3D-shoe/assests/images/Jumia-logo.jpg" alt="" />
+        </a>
+      </div>
+
+      <!-- NAV LIST -->
+      <div class="menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="" class="nav-link">MEN</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">WOMEN</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">KIDS</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">CONTACT</a>
+          </li>
+        </ul>
+
+      </div>
+
+      <a href="" class="cart">
+        <img class="shopping-cart" src="./Jumia-3D-shoe/assests/images/icons/shopping cart.png" alt="" />
+        <!-- <span>Cart</span> -->
+      </a>
+
+      <div class="hamburger">
+        <img src="./Jumia-3D-shoe/assests/images/icons/menu.svg" alt="" />
+
+      </div>
+    </nav>
+  </header>
+  <!-- END OF NAV -->
+  
+  <!-- CAROSUEL -->
+  <main id='carousel'>
+    <div class="swiper-container gallery-top">
+      <div class="swiper-wrapper">
+        <!--========== ISLANDS 1 ==========-->
+        <section class="islands swiper-slide" >
+          <img src="./components/carasouelAssets/img/borabora.jpg" alt="" class="islands__bg">
+
+          <div class="islands__container bd-container">
+            <div class="islands__data">
+              <h2 class="islands__subtitle">lorem</h2>
+              <h1 class="islands__title">lorem template</h1>
+              <p class="islands__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil eaque odit laudantium, placeat.</p>
+              <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+            </div>
+
+            <div class="islands__video">
+              <div class="islands__video-content">
+                <i class='bx bx-play-circle islands__video-icon'></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--========== ISLANDS 2 ==========-->
+        <section class="islands swiper-slide">
+          <img src="./components/carasouelAssets/img/bali.jpg" alt="" class="islands__bg">
+
+          <div class="islands__container bd-container">
+            <div class="islands__data">
+              <h2 class="islands__subtitle">lorem</h2>
+              <h1 class="islands__title">lorem template</h1>
+              <p class="islands__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil eaque odit laudantium, placeat.</p>
+              <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+            </div>
+
+            <div class="islands__video">
+              <div class="islands__video-content">
+                <i class='bx bx-play-circle islands__video-icon'></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--========== ISLANDS 3 ==========-->
+        <section class="islands swiper-slide">
+          <img src="./components/carasouelAssets/img/palawan.jpg" alt="" class="islands__bg">
+
+          <div class="islands__container bd-container">
+            <div class="islands__data">
+              <h2 class="islands__subtitle">lorem</h2>
+              <h1 class="islands__title">lorem template</h1>
+              <p class="islands__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil eaque odit laudantium, placeat.</p>
+              <a href="#" class="islands__button">Explore <i class='bx bx-right-arrow-alt islands__button-icon'></i></a>
+            </div>
+
+            <div class="islands__video">
+              <div class="islands__video-content">
+                <i class='bx bx-play-circle islands__video-icon'></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--========== ISLANDS POPUP ==========-->
+        <div class="islands__popup" id="popup">
+          <div>
+            <div class="islands__popup-close" id="popup-close">
+              <i class='bx bx-x'></i>
+            </div>
+
+            <iframe class="islands__popup-video" src="https://www.youtube.com/embed/JrU6bsuNU7Y" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--========== CONTROLS ==========-->
+    <div class="controls gallery-thumbs">
+      <div class="controls__container swiper-wrapper">
+        <img src="./components/carasouelAssets/img/borabora.jpg" alt="" class="controls__img swiper-slide">
+        <img src="./components/carasouelAssets/img/bali.jpg" alt="" class="controls__img swiper-slide">
+        <img src="./components/carasouelAssets/img/palawan.jpg" alt="" class="controls__img swiper-slide">
+      </div>
+    </div>
+  </main>
+
+
+  <div class="body-container">
+    <!-- MAIN -->
+    <main id="main-container"></main>
+
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="inner-footer">
+
+        <div class="footer-items">
+          <h1>Online Shoe shopping</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+        </div>
+
+        <div class="footer-items">
+          <h2>Quick Links</h2>
+          <div class="border"></div>
+          <ul>
+            <a href="">
+              <li>Home</li>
+            </a>
+            <a href="">
+              <li>About Us</li>
+            </a>
+            <a href="">
+              <li>Services</li>
+            </a>
+            <a href="">
+              <li>Portfolio</li>
+            </a>
+            <a href="">
+              <li>Contact Us</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h2>LET US HELP YOU</h2>
+          <div class="border"></div>
+          <ul>
+            <a href="">
+              <li>Help Center</li>
+            </a>
+            <a href="">
+              <li>How to buy on this Store</li>
+            </a>
+            <a href="">
+              <li>Shipping and Delivery</li>
+            </a>
+            <a href="">
+              <li>Return Policy</li>
+            </a>
+            <a href="">
+              <li>Report a Problem</li>
+            </a>
+          </ul>
+        </div>
+
+        <div class="footer-items">
+          <h2>Contact Us</h2>
+          <div class="border"></div>
+          <ul>
+            <li><i class="fa fa-map-marker" aria-hidden="true"></i>10, Kelvin Street, New Doop</li>
+            <li><i class="fa fa-phone" aria-hidden="true"></i>000000000</li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i>support@online&shoeshopping.com</li>
+          </ul>
+          <div class="social-media">
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer-bottom">
+        Copyright &copy; shoe & shopping 2021. All rights reserved.
+      </div>
+    </div>
+  </div>
+
+  <!--========== GSAP ==========-->
+  <!-- <script defer src="./components/carasouelAssets/js/gsap.min.js"></script> -->
+
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  
+  <!--========== SWIPER JS ==========-->
+  <script defer src="./components/carasouelAssets/js/swiper-bundle.min.js"></script>
+
+  <!--========== MAIN JS ==========-->
+  <script defer src="./components/carasouelAssets/js/main.js"></script>
+
+
+  <!-- <script src="./Jumia-3D-shoe/javascript/three.min.js"></script>
+  <script src="./Jumia-3D-shoe/javascript/GLTFLoader.js"></script>
+  <script src="./Jumia-3D-shoe/javascript/OrbitControls.js"></script> -->
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+            
+  <!-- main Javascript FILE -->
+  <!-- Custom Script -->
+  <script type="module" src="./index.js"></script>
+
+  <!-- <script src="./Jumia-3D-shoe/index.js"></script>  -->
+   <!-- <script src="./Jumia-3D-shoe/game-code.js"></script> -->
+</body>
+
+</html>
